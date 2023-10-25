@@ -15,4 +15,11 @@ slider.oninput = function () {
   this.value = closest;
   output.innerHTML = this.value;
   console.log(this.value);
+  if (closest == 0) {
+    var imageshown = "resources/images/jungle.jpg";
+  } else if (closest == 1) {
+    var imageshown = "resources/images/trees.jpg";
+  }
+
+  document.getElementById("img").src = imageshown;
 };

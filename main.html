@@ -5,13 +5,24 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Document</title>
-	<script function show_value(x) { document.getElementById("slider_value").innerHTML=x;}></script>
-	<link rel="stylesheet" href="scroll.css">
+	<<<<<<< HEAD <style>
+		.slider,
+		#my-range {
+		width: 60%;
+		/* background: linear-gradient(to right, #6b8dff 0%, #ff2a5f 0%, #fff 0%, #fff 100%); */
+		background-color: red;
+		height: 20px;
+		}
+		</style>
+		=======
+		<script function show_value(x) { document.getElementById("slider_value").innerHTML=x;}></script>
+		<link rel="stylesheet" href="scroll.css">
 
+		>>>>>>> cd9b97ee1a1812c1092136fef5c1d6979f7a12a7
 </head>
 
 <body>
-	
+
 	<input type="range" min="0" max="5" value="0" class="slider" id="my-range" list="ticks">
 	</div>
 	<datalist id="ticks">
@@ -22,6 +33,7 @@
 		<option>4</option>
 		<option>5</option>
 	</datalist>
+	<img id="img" src=imageshown>
 	<script type="text/javascript" src="trig.js"></script>
 </body>
 
