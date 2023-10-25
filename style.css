@@ -21,7 +21,7 @@ html, body {
     display: flex;
     /*background-color: #ffe5e5;*/
     align-items: center;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     /*gap: 5vw;*/
     position: fixed;
     justify-content: flex-start;
@@ -142,3 +142,10 @@ html, body {
     transform-origin: bottom left;
   }
   
+  #gif{
+    position: relative;
+    margin-top: 15px;
+    margin-left: -15px;
+    height: 12px;
+    width: 85px;
+    }

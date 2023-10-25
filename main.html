@@ -6,16 +6,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Document</title>
 	<script function show_value(x) { document.getElementById("slider_value").innerHTML=x;}></script>
-
+	<link rel="stylesheet" href="scroll.css">
 </head>
 
 <body>
-	<div class="value-container">
+<div id="box">
+	<div class="value-container">-
 		<p>Value: <span id="demo">0</span></p>
 	</div>
+	<div id="range">
 	<input type="range" min="0" max="100" value="0" class="slider" id="my-range">
-	</div>
+	<div class="time"><p>Avg. 2.5</p> </div>
+	<div class="bar2" id="bar2"></div>
+	<div class="dot" ></div>
+
+</div>
 	<script type="text/javascript" src="trig.js"></script>
+</div>
 </body>
 
 </html>

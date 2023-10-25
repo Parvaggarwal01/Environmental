@@ -1,0 +1,52 @@
+#box{
+    border: 0.1px solid rgb(148, 146, 146);
+    height: 100px;
+    padding-left: 10px;
+    
+}
+#range{
+    position: relative;
+    width:43%;
+    height: 2px;
+    background: rgb(105,105,170,.1);
+    margin: 0px 15px 0px 10px;
+}
+.bar2{
+    position: absolute;
+    background-color: aqua;
+    width:50%;
+    height: 100%;
+    top: 0;
+    transition: 1s linear;
+    
+
+}
+.dot{
+    content: '';
+position: absolute;
+width: 15px;
+height: 15px;
+border: 1px solid #36e2ec;
+border-radius: 50%;
+left: -7px;
+top: -6.5px;
+box-shadow: inset 0px 0px 3px #36e2ec;
+}
+.dot input{
+   position: absolute;
+   width: 100%;
+
+}
+input { 
+    position: absolute;
+    width: 100%;
+    top: -7px;
+    left: 0;
+    cursor: pointer;
+    z-index: 99999999999999999999999999999999999999999;
+    opacity: 0;
+}
+.time p{
+    font-size: 10px;
+    
+}
