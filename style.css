@@ -18,7 +18,7 @@ html, body {
 body::-webkit-scrollbar{
     display: block;
     width: 8px;
-    background-color: #8be6e2;
+    background-color: #a8dbd9;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -83,6 +83,7 @@ body::-webkit-scrollbar-thumb{
     font-size: 5vw;
     color: #f3fde8;
     position: relative;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #page1 p {
