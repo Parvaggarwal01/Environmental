@@ -386,6 +386,10 @@ html, body {
     margin-left: 32vw;
 }
 
+#page7 #element2{
+    color: #000;
+}
+
 #page8{
     height: 40vh;
     width: 100%;  
@@ -459,3 +463,4 @@ html, body {
     color: #000;
     margin-left: 32vw;
 }
+

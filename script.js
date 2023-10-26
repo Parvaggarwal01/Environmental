@@ -101,3 +101,54 @@ gsap.from("#page6 img,#page6 p",{
         scrub:4,
     }
 })
+
+var typed = new Typed('#element2', {
+    strings: ["<i></i> Local Community  Gardens"],
+    typeSpeed: 50,
+    loop: true,
+    loopCount: Infinity,
+    backDelay: 1500,
+    backSpeed: 50,
+  });
+
+  gsap.from("#page7 img,#page7 p,#page7 h3,#page7 i ",{
+    y: 90,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger:{
+        trigger:"#page7",
+        scroller:"body",
+       // markers:true,
+        start:"top 70%",
+        end:"top 65%",
+        scrub:4,
+    }
+})
+
+gsap.from("#page8 img,#page8 p,#page8 h3,#page8 i ",{
+    y: 90,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger:{
+        trigger:"#page8",
+        scroller:"body",
+       // markers:true,
+        start:"top 70%",
+        end:"top 65%",
+        scrub:4,
+    }
+})
+
+gsap.from("#page9 img,#page9 p,#page9 h3,#page9 i ",{
+    y: 90,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger:{
+        trigger:"#page9",
+        scroller:"body",
+       // markers:true,
+        start:"top 70%",
+        end:"top 65%",
+        scrub:4,
+    }
+})
